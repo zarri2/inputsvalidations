@@ -1,8 +1,8 @@
-function InputsValidations() {
+function Inputsvalidations() {
     return(
         <>
              {/*<!----------------------------Question No #01  ------------------------------>*/}
-    <div>
+    <div style={{color: "red"}}>
     <h1>PY Checker Adder</h1>
     <input type="text" id="wordbar" placeholder="Enter Word"/><br/>
     <button className="Button1" onclick="string_check()">Submit</button>
@@ -50,4 +50,4 @@ function InputsValidations() {
     )
 }
 
-export default InputsValidations;
+export default Inputsvalidations;
